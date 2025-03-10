@@ -1,0 +1,30 @@
+# Virtual environment
+venv/
+env/
+
+# Byte-compiled / cached files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Logs & Debugging
+*.log
+local_settings.py
+
+# Django stuff
+db.sqlite3  # Ignore SQLite database file
+media/      # Ignore uploaded media files (if applicable)
+staticfiles/  # Ignore collected static files (if using collectstatic)
+
+# Ignore environment variables
+.env
+
+# Ignore IDE/editor-specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore MacOS and Linux system files
+.DS_Store
